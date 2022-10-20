@@ -3,8 +3,9 @@ import 'antd/dist/antd.css';
 import {Layout } from 'antd';
 import React from 'react';
 import AppHeader from './components/common/header';
+import AppHome from './views/home';
 
-const { Header } = Layout;
+const { Header, Content } = Layout;
 
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <AppHeader/>
       
     </Header>
+    <Content>
+      <AppHome />
+    </Content>
   </Layout>
   );
 }
