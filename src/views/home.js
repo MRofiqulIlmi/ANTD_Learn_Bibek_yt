@@ -4,6 +4,8 @@ import AppAbout from "../components/home/about";
 import AppFeature from "../components/home/feature";
 import AppWorks from "../components/home/works";
 import AppFaq from "../components/home/faq";
+import AppPricing from "../components/home/pricing";
+
 
 
 function AppHome(){
@@ -14,6 +16,7 @@ function AppHome(){
             <AppFeature />
             <AppWorks />
             <AppFaq />
+            <AppPricing />
         </div>
     )
 }
