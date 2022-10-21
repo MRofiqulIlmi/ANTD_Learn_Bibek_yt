@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ANTD_Learn_Bibek_yt/static/css/main.2b97e226.css",
+    "main.js": "/ANTD_Learn_Bibek_yt/static/js/main.37f697b3.js",
+    "static/js/787.856a2c82.chunk.js": "/ANTD_Learn_Bibek_yt/static/js/787.856a2c82.chunk.js",
+    "static/media/bg-hero.jpg": "/ANTD_Learn_Bibek_yt/static/media/bg-hero.2e6d5a35d22cda1a0dd8.jpg",
+    "static/media/bg-works.jpg": "/ANTD_Learn_Bibek_yt/static/media/bg-works.abd66d06d525eadfd24a.jpg",
+    "static/media/easy-customise.jpg": "/ANTD_Learn_Bibek_yt/static/media/easy-customise.d4fe22138e1668906aab.jpg",
+    "static/media/great-support.jpg": "/ANTD_Learn_Bibek_yt/static/media/great-support.13341f4e93333e45ebbe.jpg",
+    "static/media/advanced-option.jpg": "/ANTD_Learn_Bibek_yt/static/media/advanced-option.84c7d0693123632c9035.jpg",
+    "static/media/modern-design.jpg": "/ANTD_Learn_Bibek_yt/static/media/modern-design.e2114f5b8abbe8b1fa8b.jpg",
+    "static/media/clean-design.jpg": "/ANTD_Learn_Bibek_yt/static/media/clean-design.728069dab437b67d9da8.jpg",
+    "static/media/unlimited-features.jpg": "/ANTD_Learn_Bibek_yt/static/media/unlimited-features.a0b8acf77e6b57772078.jpg",
+    "index.html": "/ANTD_Learn_Bibek_yt/index.html",
+    "main.2b97e226.css.map": "/ANTD_Learn_Bibek_yt/static/css/main.2b97e226.css.map",
+    "main.37f697b3.js.map": "/ANTD_Learn_Bibek_yt/static/js/main.37f697b3.js.map",
+    "787.856a2c82.chunk.js.map": "/ANTD_Learn_Bibek_yt/static/js/787.856a2c82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b97e226.css",
+    "static/js/main.37f697b3.js"
+  ]
+}
