@@ -1,0 +1,92 @@
+import React from "react";
+import { Button, Checkbox, Form, Input } from 'antd';
+const {TextArea} = Input;
+
+
+function AppContact(){
+    return(
+        <div className="block contactBlock">
+            <div className="container-fluid">
+                <div className="titleHolder">
+                    <h2>Get in Touch</h2>
+                    <p>Dolore nam rerum obcaecati fugit odio nobis Molestiae rerum</p>
+                </div>
+                <Form
+                    name="normal_login"
+                    className="login-form"
+                    initialValues={{
+                        remember: true,
+                    }}
+                    >
+                    <Form.Item
+                        name="fullname"
+                        rules={[
+                        {
+                            required: true,
+                            message: 'Please input your Fullname!',
+                        },
+                        ]}
+                    >
+                        <Input placeholder="Fullname" />
+                    </Form.Item>
+                    <Form.Item
+                        name="email"
+                        rules={[
+                        {
+                            required: true,
+                            message: 'Please input your Email!',
+                        },
+                        ]}
+                    >
+                        <Input
+                        type="email"
+                        placeholder="Email Address"
+                        />
+                    </Form.Item>
+                    
+                    
+                    <Form.Item
+                        name="telephone"
+                    >
+                        <Input placeholder="Telephone" />
+                    </Form.Item>
+                    <Form.Item
+                        name="subject"
+                    >
+                        <Input placeholder="Subject" />
+                    </Form.Item>
+                    <Form.Item name="message">
+
+                        <TextArea placeholder="Message"/>
+                    </Form.Item>
+                    
+                    <Form.Item
+                        name="agreement"
+                        valuePropName="checked"
+                        rules={[
+                        {
+                            validator: (_, value) =>
+                            value ? Promise.resolve() : Promise.reject(new Error('Should accept agreement')),
+                        },
+                        ]}
+                        
+                    >
+                        <Checkbox>
+                        I am agree with term and conditions
+                        </Checkbox>
+                    </Form.Item>
+
+                    <Form.Item >
+                        <Button type="primary" htmlType="submit" className="login-form-button">
+                        Submit
+                        </Button>
+                    </Form.Item>
+
+                </Form>
+            </div>
+        </div>
+
+    )
+}
+
+export default AppContact;
