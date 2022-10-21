@@ -4,8 +4,10 @@ import {Layout } from 'antd';
 import React from 'react';
 import AppHeader from './components/common/header';
 import AppHome from './views/home';
+import AppFooter from './components/common/footer';
 
-const { Header, Content } = Layout;
+
+const { Header, Content, Footer } = Layout;
 
 
 function App() {
@@ -18,6 +20,9 @@ function App() {
     <Content>
       <AppHome />
     </Content>
+    <Footer>
+      <AppFooter />
+    </Footer>
   </Layout>
   );
 }
